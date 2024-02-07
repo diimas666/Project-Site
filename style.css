@@ -598,6 +598,7 @@ input {
 }
 .sport_wrapper {
 	display: flex;
+	position: relative;
 }
 .sport_text  {
 	display: inline-block;
@@ -646,4 +647,150 @@ input {
 /* картинка  */
 .sport_img{
 	margin: 50px  80px 159px;
+}
+/* .sport-absolute  */
+
+.sport_absolute {
+	display: flex;
+	position: absolute;
+	top: 650px; 
+	left:0;
+	
+
+}
+.sport_absolute-item img {
+	width: 398px;
+	height: 500px;
+	margin-bottom: 10px;
+	
+}
+.sport_absolute-item {
+	margin-left: 10px;
+	cursor: pointer;
+	transition: all .3s;
+	margin-bottom: 160px;
+	
+}
+.sport_absolute-item p {
+	font-weight: 400;
+	opacity: .5;
+	margin-bottom: 3px;
+}
+.sport_absolute-item p:last-child{
+	margin-bottom: 10px;
+}
+.sport_absolute-item h4 {
+	color: #000C22;
+	font-size: 24px;
+	margin-bottom: 10px;
+
+}
+.sport_absolute-item:hover {
+	transform: scale(1.0) translateY(-2px);
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+	padding-left: 10px;
+	
+}
+/* footer */
+
+.footer {
+	margin-top: 420px;
+	height: 766px;
+	border: 1px solid #000;
+}
+
+.footer_wrapper-left {
+	margin: 25px 0 25px 25px;
+}
+.footer_wrapper {
+	display: flex;
+}
+.footer_wrapper-text {
+	margin-left: 122px;
+}
+.get_sell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	
+	margin-bottom: 30px;
+	width: 320px;
+	height: 51px;
+	border: 1px solid #000;
+	text-align: center;
+}
+.get_sell p {
+	margin-left: 10px;
+}
+
+.footer_wrapper-text h4{
+	color: #000C22;
+	font-size: 36px;
+	margin-bottom: 49px;
+
+}
+
+.text-input {
+	display: flex;
+	border-bottom: 1px solid black;
+}
+input {
+	padding: 8px;
+}
+button {
+	border: none;
+	background-color: transparent;
+	padding-left: 8px;
+	margin-left: 320px;
+	cursor: pointer;
+}
+
+hr {
+	display: inline-block;
+	margin-left: 80px;
+	margin-bottom: 70px;
+}
+
+.footer_bottom {
+	margin-left: 60px;
+}
+.footer_logo {
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.footer_social {
+	margin-bottom: 163px;
+}
+.footer_bottom-privat {
+	justify-content: center;
+	align-self: center;
+}
+.footer_bottom-privat a {
+	opacity: 0.5;
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 20px;
+
+}
+.footer_bottom-privat a:hover {
+	opacity: 1;
+}
+.footer_bottom-left {
+	width: 50%;
+}
+/* footer_bottom-right */
+.footer_bottom-right {
+	margin-left: 417px;
+}
+
+.footer_bottom-right{
+	display: flex;
+}
+.right_item1 a {
+	color: #000;
+	opacity: 0.5;
+	font-weight: 400;
+	text-transform: uppercase;
 }
