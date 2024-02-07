@@ -12,16 +12,10 @@ $(document).ready(function(){
 		
 	
 });
+
   });
- let button = document.querySelector('.logo')
- let colorWhite = false;
- 	button.addEventListener("click", function(){
-		if(colorWhite === false) {
-			document.querySelector('body').style.background = "tomato";
-			colorWhite = true;
-		} else {
-			document.querySelector('body').style.background = "white";
-			colorWhite = false;
-		}
-		
-	});
+
+
+
+
+  

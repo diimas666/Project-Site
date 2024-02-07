@@ -370,6 +370,7 @@ input {
 	gap: 18px;
 }
 .ideas_right-item {
+	cursor: pointer;
 	width: 466px;
 	height: 550px;
 
@@ -387,6 +388,9 @@ input {
 	height: 550px;
 	background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('ideas/item2.png');
 
+}
+.ideas_right-item:hover {
+	opacity: .9;
 }
 .ideas_text {
 	color: #FFF;
@@ -408,4 +412,238 @@ input {
 	display: inline-block;
 	margin-left: 160px;
 	color: #FFF;
+}
+/* dress dress dress */
+.dres_text-top {
+	display: flex;
+	gap: 39px;
+	justify-content: start;
+	align-items: center;
+}
+.dres_text-top h2 {
+	color: var(--color-text);
+	font-size: 56px;
+	line-height: 64px; /* 114.286% */
+}
+.dres_text-top div {
+	width: 185px;
+	height: 49px;
+	border-radius: 25px;
+	background-color:#491E4B;
+	background: rgba(0, 0, 0, 0.2);
+	text-align: center;
+	padding: 14px 30px 13px 20px;
+	white-space: nowrap;
+	
+}
+
+.dress_wrapper{
+	margin-top: 51px;
+	margin-bottom: 150px;
+	flex-direction: row;
+
+}
+.dress_wrapper-item{
+	display: flex;
+	width: 398px;
+	margin-left: 16px;
+	max-height: 600px;
+}
+.dress_wrapper-item img {
+	width: 398px;
+	height: 500px;
+	margin-bottom: 20px;
+}
+.item_descr-flex h4{
+	color: var(--color-text);
+	font-weight: 400;
+	line-height: 24px; 
+	opacity: .5;
+}
+.item_descr-flex h3 {
+	color: var(--color-text);
+	font-size: 24px;
+	margin-bottom: 10px;
+
+}
+.color-price .black {
+	width: 17px;
+	height: 16px;
+	background-color: #000C22;
+}
+.color-price .red {
+	width: 17px;
+	height: 16px;
+	background-color:red;
+	margin-left: 8px;
+}
+.color-price{
+	display: flex;
+}
+
+.size {
+	display: flex;
+	flex-direction: row;
+}
+.price_descr {
+	margin-left: 340px;
+}
+/* последний правый */
+
+.dress_wrapper-item-right {
+	margin-left: 20px;
+}
+.right-text {
+	width: 398px;
+	height: 307px;
+	border: 3px solid #000;
+	margin-bottom: 16px;
+}
+.show {
+	width: 188px;
+	height: 84px;
+	margin: 42px 0 76px 54px;
+	color: #000C22;
+	font-size: 36px;
+	line-height: 42px; /* 116.667% */
+}
+.right-text a {
+	display: inline-block;
+	color: #000C22;
+	margin-left: 54px;
+}
+.two_img img {
+	width: 191px;
+	height: 330px;
+}
+.two_img {
+	position: relative;
+	display: flex;
+}
+.two_img .img1 {
+	position: absolute;
+	top: 0;
+	left: 210px;
+
+}
+/* section section section */
+
+.section {
+	margin-top: 200px;
+	height: 500px;
+	background: url('back2.png') center;
+}
+.section_summer {
+	display: flex;
+}
+.section_summer-left img{
+	margin: 169px 0 0 182px;
+}
+
+.section_summer-right {
+
+	margin: 135px 473px 16px 550px;
+}
+.section_summer-text{
+
+	width: 415px;
+	height: 128px;
+	color: #FFF;
+}
+.section_summer-text h2 {
+	color: #FFF;
+	width: 415px;
+	white-space: nowrap;
+	font-size: 56px;
+
+}
+.section_summer-text span {
+	color: #FFF;
+	font-size: 56px;
+	color: #FFF;
+	font-family: "Architects Daughter";
+	font-weight: 400;
+	text-decoration: underline;
+	
+
+
+}
+.section_summer-text p {
+	margin-top: 39px;
+	margin-bottom: 38px;
+	display: inline-block;
+	width: 312px;
+	height: 44px;
+	
+}
+.section_summer-text div {
+	width: 310px;
+	height: 49px;
+	background-color: #FFF;
+	border-radius: 25px; 
+	text-align: center;
+	padding: 10px;	
+	cursor: pointer;
+}
+.section_summer-text div:hover {
+	opacity: .7;
+}
+/* footer_slider footer_slider */
+
+/* карусель 2  */
+.sport {
+	margin-top: 80px;
+	background-color: #EEE9DC;
+	height: 972px;
+}
+.sport_wrapper {
+	display: flex;
+}
+.sport_text  {
+	display: inline-block;
+	margin: 86px 0 16px 60px;
+}
+.sport_text h4 {
+	color: #000C22;
+	font-size: 56px;
+}
+.sport_text h5, .sport_text span {
+	color: #000C22;
+	font-family: "Architects Daughter";
+	font-size: 56px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+.sport_text p {
+	width: 476px;
+	height: 72px;
+	color: #000C22;
+	font-weight: 400;
+	margin-bottom: 41px ;
+	margin-top: 10px;
+}
+.sport_text div {
+	width: 198px;
+	height: 49px;
+	background-color: var(--color-text);
+	color: #EEE9DC;
+	border-radius: 25px;
+	text-align: center;
+	padding-top: 12px;
+	cursor: pointer;
+}
+.sport_text div a {
+	color: #EEE9DC;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+
+}
+.sport_text div:hover {
+	opacity: .7;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+
+}
+
+/* картинка  */
+.sport_img{
+	margin: 50px  80px 159px;
 }

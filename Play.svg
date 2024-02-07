@@ -1,0 +1,20 @@
+<svg width="143" height="141" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Play button">
+<path id="Bg" opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M0 81C0 47.8629 26.8629 21 60 21C93.1371 21 120 47.8629 120 81C120 114.137 93.1371 141 60 141C26.8629 141 0 114.137 0 81Z" fill="url(#paint0_radial_1_1179)"/>
+<path id="Play" fill-rule="evenodd" clip-rule="evenodd" d="M80 81L52 99V63L80 81Z" fill="#EEE9DC"/>
+<g id="Progress">
+<mask id="mask0_1_1179" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="60" y="0" width="83" height="126">
+<path id="Rectangle 256" fill-rule="evenodd" clip-rule="evenodd" d="M60 126V0H143V126H60Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_1179)">
+<path id="Ellipse 6" fill-rule="evenodd" clip-rule="evenodd" d="M0 81C0 47.8629 26.8629 21 60 21C93.1371 21 120 47.8629 120 81C120 114.137 93.1371 141 60 141C26.8629 141 0 114.137 0 81Z" stroke="#EFE9DD" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_1_1179" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60 81) rotate(90) scale(60)">
+<stop stop-color="#EEE9DC" stop-opacity="0.01"/>
+<stop offset="1" stop-color="#EFE9DD"/>
+</radialGradient>
+</defs>
+</svg>
