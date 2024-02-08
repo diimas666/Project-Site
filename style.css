@@ -167,7 +167,7 @@ input {
 	color: #491E4B;
 
 }
-.backgroud_header-text  :hover, .backgroud_header-text  a:active {
+.backgroud_header-text a:hover {
 	opacity: .7;
 	transform: rotate(1.2);
 	transform:  translateY(-3px);
@@ -300,7 +300,7 @@ input {
 	font-size: 56px;
 	margin-bottom: 30px;
 	display: inline-block;
-	line-height: 64px; /* 114.286% */
+	line-height: 64px; 
 }
 .ideas_left-text span {
 	color: #491E4B;
@@ -313,7 +313,7 @@ input {
 
 /* ///ideas_left-menu */
 .ideas_left{
-	width: 520px;
+	/* width: 740px; */
 	margin-top: 60px;
 }
 .ideas_left-menu, .ideas_left_bottom-menu {
@@ -435,6 +435,9 @@ input {
 	padding: 14px 30px 13px 20px;
 	white-space: nowrap;
 	
+}
+.dres_text-top div:hover {
+	opacity: .7;
 }
 
 .dress_wrapper{
@@ -782,15 +785,44 @@ hr {
 }
 /* footer_bottom-right */
 .footer_bottom-right {
-	margin-left: 417px;
+	margin-top: -300px;
+	margin-left: 818px;
 }
 
 .footer_bottom-right{
 	display: flex;
 }
 .right_item1 a {
+	margin-bottom: 16px;
+	display: inline-block;
+	text-decoration: none;
 	color: #000;
-	opacity: 0.5;
-	font-weight: 400;
 	text-transform: uppercase;
+}
+
+.one{
+	color: #000;
+	font-weight: 400;
+	opacity: 0.5;
+}
+.right_item1 {
+	margin-left: 50px;
+}
+.footer_social {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	cursor: pointer;
+}
+
+.copy_police {
+	display: inline-block;
+	float: right;
+	margin-right: 139px;
+	margin-top: -39px;
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	opacity: .5;
+
 }
