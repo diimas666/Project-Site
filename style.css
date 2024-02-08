@@ -243,7 +243,11 @@ input {
 
 /* !!!!!!!!!!!!!!!!!!! */
 .carousel {
+	width: 100%;
+	max-width: 1640px;
 	margin-bottom: 95px;
+	width: 100%;
+	
 }
 .carousel_item h4 {
 	color: var(--color-text);
@@ -285,9 +289,11 @@ input {
 /* ниже */
 .ideas {
 	display: flex;
-	margin-left: 140px;
-	margin-right: 140px;
+	/* margin-left: 140px;
+	margin-right: 140px; */
 	margin-bottom: 100px;
+	padding-left: 140px;
+	padding-right: 140px;
 }
 
 
